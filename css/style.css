@@ -74,7 +74,6 @@ a{
 }
 
 .header-bar .header-grid a{
-    /*width: 100px;*/
     padding: 0.5rem 0.5rem;
 }
 
@@ -91,6 +90,7 @@ a{
 
 .showcase-grid{
     display: grid;
+    width: 100%;
     padding: 100px 0;
     grid-template-rows: 1fr 2fr 2fr;
     grid-gap: 2rem;
@@ -168,6 +168,10 @@ a{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .header-bar .header-grid ul{
+        grid-gap: 0.5rem;
     }
 
     .showcase-grid{
