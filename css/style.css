@@ -66,14 +66,19 @@ a{
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 1rem;
     margin: 0.5rem 1rem;
+    justify-content: center;
 }
 
 .header-bar .header-grid li{
     display: grid;
     justify-content: center;
+    align-items: center;
 }
 
 .header-bar .header-grid a{
+    color: var(--primary-text-color);
+    width: 6.5rem;
+    font-weight: 800;
     padding: 0.5rem 0.5rem;
 }
 
@@ -172,6 +177,17 @@ a{
 
     .header-bar .header-grid ul{
         grid-gap: 0.5rem;
+    }
+
+    /*.header-bar .header-grid li{
+        width: 4.5rem;
+    }*/
+
+    .header-bar .header-grid a{
+        color: var(--primary-text-color);
+        width: 4.5rem;
+        font-weight: 500;
+        padding: 0.5rem 0;
     }
 
     .showcase-grid{
