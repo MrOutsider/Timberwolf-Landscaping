@@ -70,11 +70,12 @@ a{
 
 .header-bar .header-grid li{
     display: grid;
+    justify-content: center;
 }
 
 .header-bar .header-grid a{
     /*width: 100px;*/
-    padding: 0.5rem 0;  
+    padding: 0.5rem 0.5rem;
 }
 
 #showcase{
@@ -90,6 +91,7 @@ a{
 
 .showcase-grid{
     display: grid;
+    padding: 100px 0;
     grid-template-rows: 1fr 2fr 2fr;
     grid-gap: 2rem;
     justify-content: center;
