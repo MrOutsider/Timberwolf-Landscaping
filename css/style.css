@@ -1,9 +1,10 @@
 :root{
-    /*--primary-color: #4cbb17;*/
-    --primary-color: #039570;
+    --primary-color: #4cbb17;
+    /* --primary-color: #039570; */
     --primary-text-color: #ffffff;
     --button-color: grey;
-    --button-hover-color: #007457;
+    --button-hover-color: #096b09;
+    /* --button-hover-color: #007457; */
 }
 
 *{
@@ -33,6 +34,7 @@ a{
     background: var(--button-hover-color);
 }
 
+/* Header */
 .header-bar .current-btn{
     background: var(--button-hover-color);
 }
@@ -82,6 +84,8 @@ a{
     padding: 0.5rem 0.5rem;
 }
 
+/* Showcase Area */
+
 #showcase{
     width: 100%;
     min-height: 90vh;
@@ -116,6 +120,7 @@ a{
     margin: 0 auto;
 }
 
+/* Footer */
 .footer-bar{
     display: grid;
     grid-template-columns: 1fr;
@@ -176,12 +181,9 @@ a{
     }
 
     .header-bar .header-grid ul{
+        margin: 0.5rem 0;
         grid-gap: 0.5rem;
     }
-
-    /*.header-bar .header-grid li{
-        width: 4.5rem;
-    }*/
 
     .header-bar .header-grid a{
         color: var(--primary-text-color);
