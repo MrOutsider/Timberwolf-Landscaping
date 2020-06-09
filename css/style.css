@@ -139,10 +139,22 @@ a{
 
 .contact-box p{
     color: var(--primary-text-color);
-    font-size: 6rem;
+    font-size: 4rem;
     margin: 2rem;
 }
 
+.contact-box a{
+    color: #3b5998;
+    padding: 2rem;
+    
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 /* Contact Us Page End */
 
 @media(max-width: 900px){
@@ -174,6 +186,10 @@ a{
         margin: 2rem;
     }
 
+    .social-links{
+        display: flex;
+        flex-direction: column;
+    }
     /* Contact Us Page End */
 }
 
@@ -192,8 +208,7 @@ a{
     .contact-box p{
         color: var(--primary-text-color);
         font-size: 1.5rem;
-        margin: 2rem;
+        margin: 1rem;
     }
-
     /* Contact Us Page End */
 }
