@@ -187,7 +187,6 @@ a{
     }
 
     .social-links{
-        display: flex;
         flex-direction: column;
     }
     /* Contact Us Page End */
