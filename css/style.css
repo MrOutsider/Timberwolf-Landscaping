@@ -120,6 +120,31 @@ a{
     text-align: center;
 }
 
+/* Contact Us Page */
+
+.contact-box{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contact-box .contact-box-border{
+    background: var(--primary-color);
+    border-radius: 15px;
+}
+
+.contact-box p{
+    color: var(--primary-text-color);
+    font-size: 8rem;
+    margin: 2rem;
+}
+
+/* Contact Us Page End */
+
 @media(max-width: 900px){
     .header-bar{
         height: 225px;
