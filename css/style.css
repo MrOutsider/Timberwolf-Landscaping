@@ -1,6 +1,7 @@
 :root{
-    --primary-color: #4cbb17;
+    /* --primary-color: #4cbb17; */
     /* --primary-color: #039570; */
+    --primary-color: #009425;
     --primary-text-color: #ffffff;
     --button-color: grey;
     --button-hover-color: #096b09;
@@ -155,7 +156,7 @@ a{
     margin: 2rem 2rem 0;
 }
 
-.contact-box a{
+#fb{
     color: #3b5998;
     padding: 2rem;
     
@@ -186,7 +187,6 @@ a{
     }
 
     .header-bar .header-grid a{
-        color: var(--primary-text-color);
         width: 4.5rem;
         font-weight: 500;
         padding: 0.5rem 0;
@@ -200,12 +200,10 @@ a{
 /* Contact Us Page */
 
     .contact-box .contact-box-border{
-        background: var(--primary-color);
         border-radius: 15px;
     }
     
     .contact-box p{
-        color: var(--primary-text-color);
         font-size: 2rem;
         margin: 1rem 1rem 0;
     }
@@ -214,7 +212,7 @@ a{
         flex-direction: column;
     }
 
-    .contact-box a{
+    #fb{
         padding: 0rem 1rem 1rem;
         
     }
@@ -226,16 +224,22 @@ a{
         height: 300px;
     }
 
+    .header-bar .header-grid a{
+        width: 3.5rem;
+        font-size: 0.8rem;
+        font-weight: 300;
+        padding: 0.5rem 0;
+    }
+
     /* Contact Us Page */
 
     .contact-box .contact-box-border{
-        background: var(--primary-color);
         border-radius: 15px;
     }
     
     .contact-box p{
-        color: var(--primary-text-color);
-        font-size: 1.2rem;
+        font-size: 0.8rem;
+        font-weight: 800;
         margin: 1rem;
     }
     /* Contact Us Page End */
