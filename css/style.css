@@ -24,6 +24,11 @@ a{
     text-decoration: none;
 }
 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .btn{
     background: var(--button-color);
     color: var(--primary-text-color);
@@ -101,8 +106,8 @@ a{
 .showcase-grid{
     display: grid;
     width: 100%;
-    padding: 2rem 0;
-    grid-gap: 1rem;
+    padding: 10rem 0;
+    grid-gap: 0;
     grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
@@ -114,11 +119,6 @@ a{
     font-weight: 500;
     font-size: 3rem;
     margin: auto;
-}
-
-.container{
-    width: 80%;
-    margin: 0 auto;
 }
 
 /* Footer */
@@ -137,36 +137,55 @@ a{
 /* Contact Us Page */
 
 .contact-box{
-    height: 90vh;
-    display: flex;
+    padding: 10rem 0;
+    display: flex;align-items: center;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
-.contact-box .contact-box-border{
+.contact-box ul{
+    list-style: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact-box > ul{
     background: var(--primary-color);
     border-radius: 15px;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-box p{
     color: var(--primary-text-color);
-    font-size: 4rem;
-    margin: 2rem 2rem 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#social-links{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #fb{
     color: #3b5998;
-    padding: 2rem;
-    
 }
 
-.social-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.fb-lg{
+    display: inline;
+}
+
+.fb-sm{
+    display: none;
 }
 /* Contact Us Page End */
 
@@ -198,25 +217,10 @@ a{
     }
 
 /* Contact Us Page */
-
-    .contact-box .contact-box-border{
-        border-radius: 15px;
-    }
-    
     .contact-box p{
-        font-size: 2rem;
-        margin: 1rem 1rem 0;
+        font-size: 0.8rem;
     }
-
-    .social-links{
-        flex-direction: column;
-    }
-
-    #fb{
-        padding: 0rem 1rem 1rem;
-        
-    }
-    /* Contact Us Page End */
+/* Contact Us Page End */
 }
 
 @media(max-width:585px){
@@ -232,15 +236,12 @@ a{
     }
 
     /* Contact Us Page */
-
-    .contact-box .contact-box-border{
-        border-radius: 15px;
+    .fb-lg{
+        display: none;
     }
-    
-    .contact-box p{
-        font-size: 0.8rem;
-        font-weight: 800;
-        margin: 1rem;
+
+    .fb-sm{
+        display: inline;
     }
     /* Contact Us Page End */
 }
