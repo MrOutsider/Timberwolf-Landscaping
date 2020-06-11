@@ -42,7 +42,7 @@ a{
 
 .header-bar{
     position: relative;
-    height: 36vh;
+    height: 150px;
     background: var(--primary-color);
 }
 
@@ -172,7 +172,7 @@ a{
 
 @media(max-width: 1100px){
     .header-bar{
-        height: 80vh;
+        height: 280px;
     }
 
     .header-bar .header-grid{
@@ -219,7 +219,11 @@ a{
     /* Contact Us Page End */
 }
 
-@media(max-width:500px){
+@media(max-width:585px){
+    .header-bar{
+        height: 340px;
+    }
+
     .header-bar .header-grid a{
         width: 3.5rem;
         font-size: 0.8rem;
