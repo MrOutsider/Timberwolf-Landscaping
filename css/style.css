@@ -224,6 +224,14 @@ a{
     .contact-box p{
         font-size: 0.8rem;
     }
+
+    .fb-lg{
+        display: none;
+    }
+
+    .fb-sm{
+        display: inline;
+    }
 /* Contact Us Page End */
 }
 
@@ -237,16 +245,6 @@ a{
         font-size: 0.8rem;
         font-weight: 300;
     }
-
-    /* Contact Us Page */
-    .fb-lg{
-        display: none;
-    }
-
-    .fb-sm{
-        display: inline;
-    }
-    /* Contact Us Page End */
 }
 
 @media(max-width:400px){
