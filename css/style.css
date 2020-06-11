@@ -42,13 +42,8 @@ a{
 
 .header-bar{
     position: relative;
-    height: 125px;
+    height: 36vh;
     background: var(--primary-color);
-}
-
-.header-bar img{
-    height: 120px;
-    padding: 0.25rem;
 }
 
 .header-bar .header-grid{
@@ -57,6 +52,11 @@ a{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.header-bar img{
+    height: 150px;
+    padding: 0.25rem;
 }
 
 .header-bar .header-grid h1{
@@ -101,9 +101,9 @@ a{
 .showcase-grid{
     display: grid;
     width: 100%;
-    padding: 100px 0;
-    grid-template-rows: 1fr 2fr 2fr;
-    grid-gap: 2rem;
+    padding: 2rem 0;
+    grid-gap: 1rem;
+    grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -170,9 +170,9 @@ a{
 }
 /* Contact Us Page End */
 
-@media(max-width: 900px){
+@media(max-width: 1100px){
     .header-bar{
-        height: 225px;
+        height: 80vh;
     }
 
     .header-bar .header-grid{
@@ -219,11 +219,7 @@ a{
     /* Contact Us Page End */
 }
 
-@media(max-width:625px){
-    .header-bar{
-        height: 300px;
-    }
-
+@media(max-width:500px){
     .header-bar .header-grid a{
         width: 3.5rem;
         font-size: 0.8rem;
