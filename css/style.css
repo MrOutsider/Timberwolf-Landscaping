@@ -205,6 +205,10 @@ a{
 /* Contact Us Page End */
 
 @media(max-width: 1100px){
+    .game-container{
+        margin: 50% auto;
+    }
+
     .header-bar{
         height: 280px;
     }
