@@ -32,6 +32,17 @@ a{
     margin: 0 auto;
 }
 
+.game-container{
+    margin: 20% auto;
+    background-image: url("../tetris/tetris.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+
+    justify-content: center;
+    align-items: center;
+}
+
 .btn{
     background: var(--button-color);
     color: var(--primary-text-color);
