@@ -36,6 +36,7 @@ a{
     margin: 1rem auto;
 
     min-height: 800px;
+    max-height: 800px;
 
     justify-content: center;
     align-items: center;
@@ -44,6 +45,7 @@ a{
 .game-container iframe{
     width: 100%;
     min-height: 800px;
+    max-height: 800px;
 }
 
 .btn{
@@ -251,11 +253,13 @@ a{
 
 @media(max-width:585px){
     .game-container{
-        min-height: 600px;
+        min-height: 500px;
+        max-height: 500px;
     }
 
     .game-container iframe{
-        min-height: 600px;
+        min-height: 500px;
+        max-height: 500px;
     }
 
     .header-bar{
