@@ -43,7 +43,7 @@ a{
 
 .game-container iframe{
     width: 100%;
-    height: 800px;
+    min-height: 800px;
 }
 
 .btn{
@@ -251,7 +251,11 @@ a{
 
 @media(max-width:585px){
     .game-container{
-        /*  */
+        min-height: 600px;
+    }
+
+    .game-container iframe{
+        min-height: 600px;
     }
 
     .header-bar{
