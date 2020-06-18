@@ -253,13 +253,13 @@ a{
 
 @media(max-width:585px){
     .game-container{
-        min-height: 500px;
-        max-height: 500px;
+        min-height: 600px;
+        max-height: 600px;
     }
 
     .game-container iframe{
-        min-height: 500px;
-        max-height: 500px;
+        min-height: 600px;
+        max-height: 600px;
     }
 
     .header-bar{
