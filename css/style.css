@@ -36,7 +36,6 @@ a{
     margin: 1rem auto;
 
     min-height: 95vh;
-    max-height: 95vh;
 
     justify-content: center;
     align-items: center;
@@ -45,7 +44,6 @@ a{
 .game-container iframe{
     width: 100%;
     min-height: 95vh;
-    max-height: 95vh;
 }
 
 .btn{
