@@ -35,8 +35,8 @@ a{
 .game-container{
     margin: 1rem auto;
 
-    min-height: 800px;
-    max-height: 800px;
+    min-height: 95vh;
+    max-height: 95vh;
 
     justify-content: center;
     align-items: center;
@@ -44,8 +44,8 @@ a{
 
 .game-container iframe{
     width: 100%;
-    min-height: 800px;
-    max-height: 800px;
+    min-height: 95vh;
+    max-height: 95vh;
 }
 
 .btn{
@@ -252,16 +252,6 @@ a{
 }
 
 @media(max-width:585px){
-    .game-container{
-        min-height: 700px;
-        max-height: 700px;
-    }
-
-    .game-container iframe{
-        min-height: 700px;
-        max-height: 700px;
-    }
-
     .header-bar{
         height: 340px;
     }
